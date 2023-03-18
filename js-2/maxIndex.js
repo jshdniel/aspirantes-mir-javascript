@@ -14,6 +14,6 @@ function maxIndex (array) {
 }
 
 
-console.log(maxIndex([1, 3, 2]))
-console.log(maxIndex([10, 9, 8, 7, 6, 5, 4]))
-console.log(maxIndex([]))
+console.log(maxIndex([1, 3, 2]));
+console.log(maxIndex([10, 9, 8, 7, 6, 5, 4]));
+console.log(maxIndex([]));

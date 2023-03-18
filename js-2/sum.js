@@ -8,6 +8,6 @@ function sum (array) {
 }
 
 
-console.log(sum([1, 2, 3]))
-console.log(sum([10, 8, 12, 5]))
-console.log(sum([]))
+console.log(sum([1, 2, 3]));
+console.log(sum([10, 8, 12, 5]));
+console.log(sum([]));
