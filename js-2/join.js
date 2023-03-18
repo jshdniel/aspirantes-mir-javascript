@@ -1,8 +1,12 @@
 
 function join(array) {
-    if(!array.length)
+    let result = "";
+    for (let i = 0; i < array.length; i++) {
+        result = result + array [i] + " ";
+    }
+    return result;
 }
 
-console.log(join(["Hola", "Mundo"])) // "Hola Mundo"
-console.log(join(["Make", "It", "Real"])) // "Make It Real"
-console.log(join([])) // ""
+console.log(join(["Hola", "Mundo"]));
+console.log(join(["Make", "It", "Real"]));
+console.log(join([]));
