@@ -13,7 +13,7 @@ function calcularColor(num) {
     return "El color es " + color;
   }
   
-  console.log(calcularColor(1)) // "El color es negro"
-  console.log(calcularColor(2)) // "El color es blanco"
-  console.log(calcularColor(3)) // "El color es azul"
-  console.log(calcularColor(6)) // "El color es verde"
+  console.log(calcularColor(1))
+  console.log(calcularColor(2))
+  console.log(calcularColor(3))
+  console.log(calcularColor(8))
