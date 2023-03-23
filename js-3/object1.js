@@ -23,8 +23,8 @@ for (const [keys, values] of Object.entries(pedro)) {
 
 //Agrégale al objeto una función llamada saluda que retorne la frase “Hola, me llamo ” seguido del nombre de la persona
 pedro.saluda = function () {
-    console.log("Hola, me llamo " + this.nombre)
+    console.log(`hola, me llamo ${this.nombre}`);
 }
 
-//
+//Llama la función saluda y verifica el resultado
 console.log(pedro.saluda());
